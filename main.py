@@ -132,7 +132,7 @@ class Application(tk.Frame):
         self.dir_output_str = tk.StringVar()
         self.dir_output_str.set(self.metadata_list[-1])
         self.dir_save_path = tk.Label(self.save_frame, textvariable=self.dir_output_str,
-                                       anchor=tk.W)
+                                      anchor=tk.W)
         self.dir_save_path.grid(row=3, column=1,)
 
         
